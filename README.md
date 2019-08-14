@@ -1,6 +1,17 @@
 # Git_Pulse
 A dummy project for git pulse
 
+## GIT download
+you can use the following link to install git and setup it in your machine
+
+*note: make sure to add the installed folders to the path env variable.*
+* WHERE_INSTALLED\Git\cmd\
+* WHERE_INSTALLED\Git\bin\
+* WHERE_INSTALLED\Git\usr\bin\
+* WHERE_INSTALLED\Git\bin\
+
+
+## SSH Setup
 ### Checking ssh if exists
 Enter "ls -al ~/.ssh" to see if existing SSH keys are present
 most propably the ssh key will be exist in the path "C:\Users\YOUR_USER-NAME\.ssh\id_rsa.pub".
@@ -11,4 +22,4 @@ To geenrate new ssh key you can follow the steps in the following [link](https:/
 ### add the ssh key to github
 Open the settings from rigth top cornenr >> then selesct SSH and GPG keys tap >> then add the existing/generated key without your email or the endline in the file.
 
-#Now you are ready to clone the repo. :D
+# Now you are ready to clone the repo. :D
