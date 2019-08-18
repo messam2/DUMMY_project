@@ -2,13 +2,13 @@
 A dummy project for git pulse
 
 ## GIT download
-you can use the following link to install git and setup it in your machine
+you can use the following [link](https://git-scm.com/downloads) to install git and setup it in your machine (Admin access is not required)
 
 *note: make sure to add the installed folders to the path env variable.*
-* WHERE_INSTALLED\Git\cmd\
-* WHERE_INSTALLED\Git\bin\
-* WHERE_INSTALLED\Git\usr\bin\
-* WHERE_INSTALLED\Git\bin\
+* path\to\Git\cmd\
+* path\to\Git\bin\
+* path\to\Git\usr\bin\
+* path\to\Git\bin\
 
 
 ## SSH Setup
@@ -16,7 +16,7 @@ you can use the following link to install git and setup it in your machine
 Enter "ls -al ~/.ssh" to see if existing SSH keys are present
 most propably the ssh key will be exist in the path "C:\Users\YOUR_USER-NAME\.ssh\id_rsa.pub".
 
-### Generate new ssh key
+### Generate new ssh key if not exists
 To geenrate new ssh key you can follow the steps in the following [link](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ### add the ssh key to github
